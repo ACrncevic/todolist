@@ -1,0 +1,94 @@
+body
+{
+	background-image: url("pozadina.jpg");
+}
+.lista
+{
+	  position: relative;
+	  margin: auto;
+	  width: 50%;
+	  border: 3px solid green;
+	  background-color: white;
+
+}
+.br
+{
+	
+	position: absolute;
+	right: 43px;
+	line-height: 1.8;
+	background: light gray;
+	float: left;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+	transition: 0.3s;
+	border-radius: 0;
+	color: red;
+	width: 30px;
+	border: 1px solid green;
+}
+
+
+
+ul
+{
+	padding-top: 30px;
+		padding-bottom: 30px;
+		margin: auto;
+	width: 80%;
+	list-style: none;
+	line-height: 1.8;
+	font-size: 18px;
+}
+
+li:nth-child(odd) 
+{
+  background: #f9f9f9;
+}
+
+li:hover
+{
+	background-color: gray;
+	text-decoration: line-through;
+}
+
+
+input
+{
+  margin: 0;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+
+  font-size: 14px;
+}
+
+#enter
+{
+  padding: 10px;
+  background: #d9d9d9;
+  color: #555;
+ 
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+
+}
+
+
+.unos
+{
+	  padding-bottom: 50px;
+	  left: 50%
+
+}
+
+.header {
+  background-color: #BCF2BC;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
